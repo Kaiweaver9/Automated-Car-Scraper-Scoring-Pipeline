@@ -8,7 +8,7 @@ An automated system that pulls pre-owned car listings from CarGurus, scores them
 
 > *Live Salesforce List View sorting inventory by total score, landed price, and distance.*
 
-<img width="1366" alt="Car Leaderboard Salesforce List View" src="Car Scraper List View.png" />
+<img width="1366" alt="Car Leaderboard Salesforce List View" src="Assets/Car Scraper List View.png" />
 
 ---
 
@@ -50,7 +50,7 @@ The custom formula computes a real-time score (`Total_Score__c`) using simple we
 <details open>
 <summary><b>Visual Proof: Formula Builder Logic</b></summary>
 <br>
-<img width="1366" alt="Total Score Formula Field Logic" src="Car Total Score Formula Field.png" />
+<img width="1366" alt="Total Score Formula Field Logic" src="Assets/Car Total Score Formula Field.png" />
 <p><i>The underlying formula logic calculating scores dynamically across mileage, year, previous owners, and transport math.</i></p>
 </details>
 
@@ -63,7 +63,7 @@ When incoming records hit the database, an automated record-triggered flow monit
 <details open>
 <summary><b>Visual Proof: Record-Triggered Flow</b></summary>
 <br>
-<img width="1366" alt="Record-Triggered Flow Builder" src="Car Scraper Record-Triggered Flow.png" />
+<img width="1366" alt="Record-Triggered Flow Builder" src="Assets/Car Scraper Record-Triggered Flow.png" />
 <p><i>Active Flow Builder layout showing the decision node and automated email action.</i></p>
 </details>
 
@@ -76,7 +76,7 @@ To maintain database hygiene and prevent corrupted data from entering Salesforce
 <details open>
 <summary><b>Visual Proof: Validation Rule Setup</b></summary>
 <br>
-<img width="1366" alt="Validation Rule Configuration" src="Car Candidate URL Validation Rule.png" />
+<img width="1366" alt="Validation Rule Configuration" src="Assets/Car Candidate URL Validation Rule.png" />
 <p><i>Active validation rule formula blocking invalid URLs and enforcing field format standards.</i></p>
 </details>
 
