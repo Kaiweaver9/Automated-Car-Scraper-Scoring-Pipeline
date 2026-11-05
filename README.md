@@ -39,7 +39,7 @@ An automated system that pulls pre-owned car listings from CarGurus, scores them
 
 ---
 
-## 🧮 Custom Scoring Logic (Formula Engine)
+## 🧮 Custom Scoring Logic (Formula Logic)
 
 The custom formula computes a real-time score (`Total_Score__c`) using simple weighted rules:
 * **Mileage (up to 40 pts):** Higher mileage drops the score based on standard wear curves.
