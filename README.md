@@ -77,7 +77,7 @@ To maintain database hygiene and prevent corrupted data from entering Salesforce
 <summary><b>Visual Proof: Validation Rule Setup</b></summary>
 <br>
 <img width="1366" alt="Validation Rule Configuration" src="Car Candidate URL Validation Rule.png" />
-<p><i>Active validation rule formula blocking malformed URLs and enforcing field format standards.</i></p>
+<p><i>Active validation rule formula blocking invalid URLs and enforcing field format standards.</i></p>
 </details>
 
 ---
